@@ -1,4 +1,5 @@
 import React from 'react';
+import './Followers.scss'
 
 class Followers extends React.Component {
   state = {
