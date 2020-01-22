@@ -1,4 +1,19 @@
 .followers {
   display: flex;
   flex-direction: column;
+
+  div {
+    p {
+      background-color: dodgerblue;
+      color: white;
+      border-radius: .5rem;
+      padding: 1rem;
+      text-align: center;
+      font-weight: 900;
+      
+      &:hover {
+        color: black;
+      }
+    }
+  }
 }

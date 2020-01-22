@@ -20,11 +20,9 @@ class Followers extends React.Component {
     return (
       <div className="followers">
         <h2>Followers</h2>
-        <ul>
-          <li>
-            {this.state.myfollowers.map(follower => follower.login)}
-          </li>
-        </ul>
+        <div>
+          {this.state.myfollowers.map(follower => <p>{follower.login}</p>)}
+        </div>
       </div>
     );
   }
